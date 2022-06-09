@@ -1,0 +1,86 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Movie shop</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+	<h1>"Movie shop"</h1>
+
+	<div class="container">
+		<div class="items">
+			<h2>Filmovi</h2>
+
+			<div class="single-item">
+				<img src="img/film1.jpg">
+				<div class="si-content">
+					<h3>Black Widow          </h3>
+					<p class="price">$10</p>
+				</div>
+				<div class="actions">
+					
+					<button onclick="addToCart(this)">Gledaj</button>
+				</div>
+			</div>
+
+			<div class="single-item">
+				<img src="img/film2.jpg">
+				<div class="si-content">
+					<h3>Pulp Fiction</h3>
+					<p class="price">$20</p>
+				</div>
+				<div class="actions">
+					
+					<button onclick="addToCart(this)">Gledaj</button>
+				</div>
+			</div>
+
+			<div class="single-item">
+				<img src="img/film3.jpg">
+				<div class="si-content">
+					<h3>Back to the Future</h3>
+					<p class="price">$25</p>
+				</div>
+				<div class="actions">
+					
+					<button onclick="addToCart(this)">Gledaj</button>
+				</div>
+			</div>
+
+			<div class="single-item">
+				<img src="img/film4.jpg">
+				<div class="si-content">
+					<h3>Inception</h3>
+					<p class="price">$25</p>
+				</div>
+				<div class="actions">
+					<button onclick="addToCart(this)">Gledaj</button>
+				</div>
+			</div>
+
+			<div class="single-item">
+				<img src="img/film5.jpeg">
+				<div class="si-content">
+					<h3>IT</h3>
+					<p class="price">$25</p>
+				</div>
+				<div class="actions">
+					<button onclick="addToCart(this)">Gledaj</button>
+				</div>
+			</div>
+		</div>
+
+		<div class="cart">
+			<h2>Korpa</h2>
+			
+			<div class="cart-items"></div>
+
+			<div class="total"></div>
+		</div>
+	</div>
+
+	<script src="script.js"></script>
+</body>
+</html>
